@@ -1,0 +1,36 @@
+{
+  "name": "deco",
+  "description": "Scalable frontend architecture",
+  "keywords": [
+    "spa",
+    "llp",
+    "knockout",
+    "require",
+    "maintainable",
+    "scalable",
+    "architecture",
+    "deco",
+    "decojs"
+  ],
+  "authors": [
+    "Marius Gundersen <bower@mariusgundersen.net>"
+  ],
+  "version": "0.5.0",
+  "main": "Dist/deco.js",
+  "ignore": [
+    "**/.*",
+    "**/*.cmd",
+    "/*.js",
+    "node_modules",
+    "bower_components",
+    "Specs"
+  ],
+  "dependencies": {
+    "requirejs": "2.1.11",
+    "knockout": "3.2.0",
+    "json": "latest",
+    "es5-shim": "2.1.0",
+    "es6-promise": "2.0.0"
+  },
+  "_source": "https://github.com/decojs/DecoJS"
+}

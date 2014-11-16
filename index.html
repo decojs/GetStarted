@@ -1,0 +1,12 @@
+<!doctype html>
+
+<div data-viewmodel="IndexVM">
+    <h2>Hello <span data-bind="text: name"></span></h2>
+
+    <label>Name: 
+    <input data-bind="textInput: name" />
+    </label>
+</div>
+
+<script src="bower_components/es6-promise/promise.js"></script>
+<script src="bower_components/requirejs/require.js" data-main="main.js"></script>
